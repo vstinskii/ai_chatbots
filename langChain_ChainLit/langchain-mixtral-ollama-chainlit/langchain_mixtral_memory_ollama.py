@@ -18,7 +18,7 @@ async def on_chat_start():
     cl.Image(name="image1", display="inline", path="mixtral.jpg")
     ]
     await cl.Message(content="Hello there, I am Mixtral. How can I help you ?", elements=elements).send()
-    model = Ollama(model="mistral:7b-instruct-v0.2-fp16")
+    model = Ollama(model="mixtral:latest")
     prompt = ChatPromptTemplate.from_messages(
         [
             (

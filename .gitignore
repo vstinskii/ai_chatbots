@@ -1,2 +1,4 @@
 langChain_ChainLit/.venv/
 multi-agents/gpt4-multi-agent/.env
+presentations/src
+langChain_ChainLit/langchain-mixtral-ollama-chainlit/.files/

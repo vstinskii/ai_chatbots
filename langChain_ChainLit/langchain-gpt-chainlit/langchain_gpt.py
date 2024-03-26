@@ -6,15 +6,15 @@ key = os.environ['OPENAI_API_KEY']
 
 client = OpenAI(api_key=key)
 
-openai_model = "gpt-3.5-turbo"
+openai_model = "gpt-4-turbo-preview"
 
 
 @cl.on_chat_start
 async def on_chat_start():
     elements = [
-    cl.Image(name="image1", display="inline", path="mixtral.jpg")
+    cl.Image(name="image1", display="inline", path="gpt3.png")
     ]
-    await cl.Message(content="Hello there, I am GPT. How can I help you ?", elements=elements).send()
+    await cl.Message(content="Hello there, I am GPT4. How can I help you ?", elements=elements).send()
 
 
 @cl.on_message
