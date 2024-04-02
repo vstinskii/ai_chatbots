@@ -1,3 +1,4 @@
 langChain_ChainLit/.venv/
 multi-agents/gpt4-multi-agent/.env
 presentations/
+RAG/groq/groq_rag_save_vectors.py
