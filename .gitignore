@@ -1,4 +1,7 @@
-langChain_ChainLit/.venv/
+/examples
+langChain_ChainLit/.venv
+langChain_ChainLit/langchain-mixtral-ollama-chainlit/.env
+langChain_ChainLit/langchain-gpt-chainlit/.env
 multi-agents/gpt4-multi-agent/.env
-presentations/
 RAG/groq/groq_rag_save_vectors.py
+ui_only/
