@@ -12,7 +12,7 @@ openai_model = "gpt-4-turbo-preview"
 @cl.on_chat_start
 async def on_chat_start():
     elements = [
-    cl.Image(name="image1", display="inline", path="gpt3.png")
+    cl.Image(name="image1", display="inline", path="gpt.png")
     ]
     await cl.Message(content="Hello there, I am GPT4. How can I help you ?", elements=elements).send()
 
