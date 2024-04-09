@@ -4,5 +4,5 @@ langChain_ChainLit/langchain-mixtral-ollama-chainlit/.env
 langChain_ChainLit/langchain-gpt-chainlit/.env
 multi-agents/gpt4-multi-agent/.env
 multi-agents/in_dev/
-RAG/groq/groq_rag_save_vectors.py
+RAG/groq/vectors/
 ui/
