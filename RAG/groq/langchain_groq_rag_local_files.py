@@ -97,7 +97,6 @@ if uploaded_file is not None:
     
     with open("vectors/paulgraham.com_greatwork.pkl", "wb") as f:
         pickle.dump(st.session_state.vector, f)
-    st.info("The text file saved to the DataBase.")
 
     llm = createLLM()
 
